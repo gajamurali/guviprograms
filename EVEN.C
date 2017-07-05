@@ -6,9 +6,9 @@ void main()
 int n,s,i=2;
 clrscr();
 scanf("%d",&n);
-if(isalpha(n))
+if(n<0)
 {
-printf("it is not a interger");
+printf("not a valid entry");
 }
 else
 {
