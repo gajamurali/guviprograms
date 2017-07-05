@@ -11,7 +11,11 @@ for(i=1;i<=n;i++)
 {
 sum=sum+i;
 }
-}
 printf("sum of %d natural numbers: %d",n,sum);
+}
+else
+{
+printf("wrong entry");
+}
 getch();
 }
