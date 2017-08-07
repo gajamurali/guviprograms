@@ -1,12 +1,8 @@
-#include<stdio.h>
+#include<stio.h>
 #include<conio.h>
 void main()
 {
-int i;
-clrscr();
-for(i=0;i<5;i++)
+if(printf(hello world"))
 {
-printf("Hello \n");
 }
-getch();
 }
