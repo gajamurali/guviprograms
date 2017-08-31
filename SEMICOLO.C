@@ -4,7 +4,7 @@ void main()
 if(clrscr())
 {
 }
-   if(printf("hello"))
+   if(printf("Hello World"))
 
    {
    }
