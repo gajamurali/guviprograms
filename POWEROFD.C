@@ -4,8 +4,6 @@ int main()
 int no,i=0,r,a[50],len,sum=0,j,power=1;
 clrscr();
 scanf("%d",&no);
-if(no>9)
-{
 for(i=0;no!=0;i++)
 {
 r=no%10;
@@ -22,7 +20,7 @@ power=power*a[i];
 sum=sum+power;
 power=1;
 }
-}
+
 printf("%d",sum);
 getch();
 return 0;
